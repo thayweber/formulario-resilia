@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#título {
+    font-family: sans-serif;
+    color: #FFD700;
+}
+
+#subtítulo{
+    font-family: sans-serif;
+    color: #FFD700; 
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: aliceblue;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #FFD700;
+    display: block;
+}
+
+.campo input:focus{
+    background: aliceblue;
+}
+
+#botao{
+    font-size: 1.2em;
+    background: #FFD700;
+    border: 0;
+    margin-bottom: 1em;
+    color: black;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #ffffff;
+}
